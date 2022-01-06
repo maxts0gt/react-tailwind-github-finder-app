@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+	.UserItem {
+		@apply card shadow-md compact bg-base-100;
+	}
+
+	.UserItemDiv {
+		@apply flex-row items-center space-x-4 card-body;
+	}
+}
